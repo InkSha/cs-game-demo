@@ -1,2 +1,8 @@
-﻿using var game = new cs_game_demo.Game1();
-game.Run();
+﻿using cs_game_demo;
+using System;
+
+Console.WriteLine("Run Project !");
+
+Controller controller = new();
+// Game1 game = new();
+// game.Run();
